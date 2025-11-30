@@ -1,12 +1,9 @@
 #include<iostream>
 using namespace std;
-
+//关键字/标识符  比如int double等
 int main()
 {
-    int a = 10;
-    int b = 20;
-    int c = a + b;
-    cout << "The sum of " << a << " and " << b << " is " << c << endl;
+    
     system("pause");
     return 0;
 }

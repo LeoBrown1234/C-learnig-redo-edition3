@@ -1,14 +1,5 @@
-#include<iostream>
-using namespace std;
-
-
-int main()
-{
-	int a = 10;
-	int b = 20;
-	int c = a + b;
-	cout << "The sum of " << a << " and " << b << " is " << c << endl;
-
-	system("pause");
-	return 0;
-}
+/*
+标识符命名规则
+下划线，英文等，第一个字符必须是下划线或者字母，
+不能是数字开头
+*/
