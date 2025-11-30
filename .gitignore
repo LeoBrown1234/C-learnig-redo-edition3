@@ -1,49 +1,35 @@
-# ========== Visual Studio 自动生成的目录 ==========
-.vs/                # VS缓存目录（包含ipch、配置等）
-Debug/              # Debug编译目录
-Release/            # Release编译目录
-x64/                # 64位编译目录
-ipch/               # 预编译头缓存目录
-CMakeFiles/         # CMake编译目录（若用CMake）
-_build/             # 自定义编译目录（若有）
+# ========== 递归忽略所有层级的VS目录 ==========
+**/.vs/                # 忽略所有子项目下的.vs目录
+**/Debug/              # 忽略所有子项目下的Debug目录
+**/Release/            # 忽略所有子项目下的Release目录
+**/x64/                # 忽略所有子项目下的x64目录
+**/ipch/               # 忽略所有子项目下的ipch目录
+**/bin/                # 忽略所有子项目下的bin目录
+**/obj/                # 忽略所有子项目下的obj目录
 
-# ========== Visual Studio 配置/缓存文件 ==========
-*.suo               # 解决方案用户选项文件
-*.user              # 项目用户选项文件
-*.userosscache      # 用户缓存文件
-*.sln.docstates     # 解决方案状态文件
-*.sdf               # 智能感知数据库文件
-*.opensdf           # 临时智能感知文件
-*.VC.db             # VS数据库文件
-*.VC.opendb         # VS临时数据库文件
-*.tlog/             # 编译日志目录
-*.log               # 日志文件
+# ========== 递归忽略所有层级的VS配置文件 ==========
+**/*.suo               # 忽略所有子项目下的.suo文件
+**/*.user              # 忽略所有子项目下的.user文件
+**/*.userosscache      # 忽略所有子项目下的.userosscache文件
+**/*.sln.docstates     # 忽略所有子项目下的.sln.docstates文件
+**/*.sdf               # 忽略所有子项目下的.sdf文件
+**/*.opensdf           # 忽略所有子项目下的.opensdf文件
+**/*.vcxproj.user      # 忽略所有子项目下的.vcxproj.user文件
 
-# ========== 编译产物 ==========
-*.obj               # 目标文件（编译中间产物）
-*.pdb               # 调试符号文件
-*.ilk               # 增量链接文件
-*.exe               # 可执行文件
-*.dll               # 动态库文件
-*.lib               # 静态库文件
-*.exp               # 导出文件
-*.manifest          # 清单文件
-*.pch               # 预编译头文件
-*.ipch              # 预编译头缓存文件
-*.res               # 资源文件
-*.idb               # 增量编译数据库文件
-*.pdb               # 程序数据库文件
+# ========== 递归忽略所有层级的编译产物 ==========
+**/*.obj               # 忽略所有子项目下的.obj文件
+**/*.pdb               # 忽略所有子项目下的.pdb文件
+**/*.ilk               # 忽略所有子项目下的.ilk文件
+**/*.exe               # 忽略所有子项目下的.exe文件
+**/*.dll               # 忽略所有子项目下的.dll文件
+**/*.lib               # 忽略所有子项目下的.lib文件
+**/*.exp               # 忽略所有子项目下的.exp文件
+**/*.manifest          # 忽略所有子项目下的.manifest文件
+**/*.pch               # 忽略所有子项目下的.pch文件
+**/*.ipch              # 忽略所有子项目下的.ipch文件
 
 # ========== 系统/其他无关文件 ==========
-.DS_Store           # macOS系统文件
-Thumbs.db           # Windows缩略图缓存
-*.bak               # 备份文件
-*.tmp               # 临时文件
-*.zip               # 压缩包
-*.7z                # 压缩包
-*.rar               # 压缩包
-*.log               # 日志文件
-*.txt               # 文本文件（若有非代码txt需保留，可删除此行）
-
-# ========== Git相关（确保.gitignore自身不被忽略） ==========
-# .gitignore本身无需忽略，这里仅作标记
+**/.DS_Store           # 忽略所有层级的.DS_Store
+**/Thumbs.db           # 忽略所有层级的Thumbs.db
+**/*.bak               # 忽略所有层级的备份文件
+**/*.tmp               # 忽略所有层级的临时文件
