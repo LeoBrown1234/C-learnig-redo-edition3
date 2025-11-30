@@ -1,0 +1,30 @@
+# ========== Visual Studio 相关 ==========
+# 解决方案/项目文件以外的自动生成文件
+.vs/                # VS的缓存文件夹（包含ipch、配置等）
+*.suo               # 解决方案用户选项文件
+*.user              # 项目用户选项文件
+*.userosscache      # 用户缓存文件
+*.sln.docstates     # 解决方案状态文件
+
+# 编译产物
+Debug/              # Debug编译目录
+Release/            # Release编译目录
+x64/                # 64位编译目录
+*.obj               # 目标文件
+*.pdb               # 调试符号文件
+*.ilk               # 增量链接文件
+*.exe               # 可执行文件
+*.dll               # 动态库文件
+*.lib               # 静态库文件
+*.exp               # 导出文件
+*.manifest          # 清单文件
+*.sdf               # 智能感知数据库文件
+*.opensdf           # 临时智能感知文件
+ipch/               # 预编译头缓存目录
+*.pch               # 预编译头文件
+*.ipch              # 预编译头缓存文件
+
+# ========== 其他通用忽略 ==========
+.DS_Store           # macOS系统文件
+Thumbs.db           # Windows缩略图缓存
+*.log               # 日志文件
